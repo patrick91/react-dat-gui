@@ -47,6 +47,7 @@ class App extends React.Component {
     render() {
         const { data, color, flashCounter } = this.state;
         const style = { color: '#' + (flashCounter ? Math.floor(Math.random() * 16777215).toString(16) : 'fff') }
+
         return (
             <div>
                 <pre style={style}>{JSON.stringify(data, null, 2)}</pre>

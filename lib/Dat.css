@@ -59,6 +59,9 @@
       border-left: 5px solid #1ed36f; }
       .react-dat-gui .cr.string input[type=text] {
         color: #1ed36f; }
+    .react-dat-gui .cr.select {
+      border-left: 5px solid #f1c40f;
+      padding: 3px 0 4px; }
     .react-dat-gui .cr.boolean {
       position: relative;
       border-left: 5px solid #806787; }
